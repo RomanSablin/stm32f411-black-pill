@@ -29,6 +29,7 @@ CBoard::CBoard()
 
 void CBoard::Init()
 {
+	HAL_Init();
 	SystemClock_Config();
 	SystemCoreClockUpdate();
 }

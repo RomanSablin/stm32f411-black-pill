@@ -7,6 +7,8 @@
 #include "Board.h"
 #include "Uart.h"
 
+using namespace cpp_freertos;
+
 CApplication::CApplication()
 	: Thread("App", 1024, 4)
 {
@@ -21,6 +23,6 @@ void CApplication::Run()
 	for (;;)
 	{
 		uart.Send((uint8_t *) "Hello, World\r\n", 14);
-		HAL_Delay(1000);
+		Thread::Delay(Ticks::MsToTicks(1000));
 	}
 }

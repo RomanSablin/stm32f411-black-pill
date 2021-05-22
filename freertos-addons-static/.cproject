@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="fr.ac6.managedbuild.config.gnu.cross.lib.debug.1110576364">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="fr.ac6.managedbuild.config.gnu.cross.lib.debug.1110576364" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/freertos-addons-static"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/freertos-addons-static/Debug"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="freertos-addons-static" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="fr.ac6.managedbuild.config.gnu.cross.lib.debug.1110576364" name="Debug" parent="fr.ac6.managedbuild.config.gnu.cross.lib.debug">
+					<folderInfo id="fr.ac6.managedbuild.config.gnu.cross.lib.debug.1110576364." name="/" resourcePath="">
+						<toolChain id="fr.ac6.managedbuild.toolchain.gnu.cross.lib.debug.619183143" name="Ac6 STM32 MCU GCC" superClass="fr.ac6.managedbuild.toolchain.gnu.cross.lib.debug">
+							<option id="fr.ac6.managedbuild.option.gnu.cross.mcu.1947003093" name="Mcu" superClass="fr.ac6.managedbuild.option.gnu.cross.mcu" useByScannerDiscovery="false" value="STM32F411CEUx" valueType="string"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.fpu.4604530" name="Floating point hardware" superClass="fr.ac6.managedbuild.option.gnu.cross.fpu" useByScannerDiscovery="false" value="fr.ac6.managedbuild.option.gnu.cross.fpu.fpv4-sp-d16" valueType="enumerated"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.floatabi.1977883345" name="Floating-point ABI" superClass="fr.ac6.managedbuild.option.gnu.cross.floatabi" useByScannerDiscovery="false" value="fr.ac6.managedbuild.option.gnu.cross.floatabi.hard" valueType="enumerated"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.board.199240739" name="Board" superClass="fr.ac6.managedbuild.option.gnu.cross.board" useByScannerDiscovery="false" value="genericBoard" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="fr.ac6.managedbuild.targetPlatform.gnu.cross.1135004255" isAbstract="false" osList="all" superClass="fr.ac6.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/freertos-addons-static}/Debug" id="fr.ac6.managedbuild.builder.gnu.cross.1999487351" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="fr.ac6.managedbuild.builder.gnu.cross"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1226337899" name="MCU GCC Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler">
+								<option id="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level.1872001268" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false"/>
+								<option id="gnu.c.compiler.option.debugging.level.192423564" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1851483185" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="STM32"/>
+									<listOptionValue builtIn="false" value="STM32F4"/>
+									<listOptionValue builtIn="false" value="STM32F411CEUx"/>
+									<listOptionValue builtIn="false" value="DEBUG"/>
+									<listOptionValue builtIn="false" value="USE_RTOS_SYSTICK"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.paths.364179663" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../black-pill/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F&quot;"/>
+								</option>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.39123346" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s.657925010" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.1824347065" name="MCU G++ Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler">
+								<option id="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level.1339298626" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.621257505" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.529803956" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="STM32"/>
+									<listOptionValue builtIn="false" value="STM32F4"/>
+									<listOptionValue builtIn="false" value="STM32F411CEUx"/>
+									<listOptionValue builtIn="false" value="DEBUG"/>
+									<listOptionValue builtIn="false" value="CPP_FREERTOS_NO_EXCEPTIONS"/>
+									<listOptionValue builtIn="false" value="CPP_FREERTOS_NO_CPP_STRINGS"/>
+									<listOptionValue builtIn="false" value="USE_RTOS_SYSTICK"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.include.paths.2146558590" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../freertos-addons/c++/Source/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../black-pill/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.dialect.std.143322258" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.c++11" valueType="enumerated"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp.1987965787" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.s.2112561552" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.s"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.linker.1553419668" name="MCU GCC Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.linker"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.2147080444" name="MCU G++ Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.archiver.1319724616" name="MCU GCC Archiver" superClass="fr.ac6.managedbuild.tool.gnu.archiver"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.assembler.1203633275" name="MCU GCC Assembler" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler">
+								<option id="gnu.both.asm.option.include.paths.1391740844" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../black-pill/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1195942877" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.assembler.input.156465233" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="Source|c++" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="portable/MemMang/heap_5.c|portable/MemMang/heap_3.c|portable/MemMang/heap_2.c|portable/MemMang/heap_1.c|portable/GCC/ARM_CM7_MPU|portable/GCC/ARM_CM7|portable/GCC/ARM_CM4_MPU|portable/GCC/ARM_CM33_NTZ|portable/GCC/ARM_CM33|portable/GCC/ARM_CM3_MPU|portable/GCC/ARM_CM3|portable/GCC/ARM_CM23_NTZ|portable/GCC/ARM_CM23|portable/GCC/ARM_CM0|portable/Tasking|portable/RVDS|portable/Keil|portable/IAR|portable/Common|CMSIS_RTOS_V2|CMSIS_RTOS" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Source"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="c++"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="fr.ac6.managedbuild.config.gnu.cross.lib.release.485990753">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="fr.ac6.managedbuild.config.gnu.cross.lib.release.485990753" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/freertos-addons-static"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/freertos-addons-static/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="freertos-addons-static" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="fr.ac6.managedbuild.config.gnu.cross.lib.release.485990753" name="Release" parent="fr.ac6.managedbuild.config.gnu.cross.lib.release">
+					<folderInfo id="fr.ac6.managedbuild.config.gnu.cross.lib.release.485990753." name="/" resourcePath="">
+						<toolChain id="fr.ac6.managedbuild.toolchain.gnu.cross.lib.release.1979635405" name="Ac6 STM32 MCU GCC" superClass="fr.ac6.managedbuild.toolchain.gnu.cross.lib.release">
+							<option id="fr.ac6.managedbuild.option.gnu.cross.mcu.514127953" name="Mcu" superClass="fr.ac6.managedbuild.option.gnu.cross.mcu" value="STM32F411CEUx" valueType="string"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.fpu.357557052" name="Floating point hardware" superClass="fr.ac6.managedbuild.option.gnu.cross.fpu" value="fr.ac6.managedbuild.option.gnu.cross.fpu.fpv4-sp-d16" valueType="enumerated"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.floatabi.1425917817" name="Floating-point ABI" superClass="fr.ac6.managedbuild.option.gnu.cross.floatabi" value="fr.ac6.managedbuild.option.gnu.cross.floatabi.hard" valueType="enumerated"/>
+							<option id="fr.ac6.managedbuild.option.gnu.cross.board.336913310" name="Board" superClass="fr.ac6.managedbuild.option.gnu.cross.board" value="genericBoard" valueType="string"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="fr.ac6.managedbuild.targetPlatform.gnu.cross.1765345478" isAbstract="false" osList="all" superClass="fr.ac6.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/freertos-addons-static}/Release" id="fr.ac6.managedbuild.builder.gnu.cross.2028661007" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="fr.ac6.managedbuild.builder.gnu.cross"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1898313461" name="MCU GCC Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler">
+								<option id="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level.863893835" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" value="fr.ac6.managedbuild.gnu.c.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1206408013" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.40404861" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="STM32"/>
+									<listOptionValue builtIn="false" value="STM32F4"/>
+									<listOptionValue builtIn="false" value="STM32F411CEUx"/>
+									<listOptionValue builtIn="false" value="USE_RTOS_SYSTICK"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.paths.543973283" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../black-pill/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F&quot;"/>
+								</option>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.1490552752" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s.1863933210" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.191669392" name="MCU G++ Compiler" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler">
+								<option id="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level.820124726" name="Optimization Level" superClass="fr.ac6.managedbuild.gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="fr.ac6.managedbuild.gnu.cpp.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1654987712" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.1100680912" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="STM32"/>
+									<listOptionValue builtIn="false" value="STM32F4"/>
+									<listOptionValue builtIn="false" value="STM32F411CEUx"/>
+									<listOptionValue builtIn="false" value="CPP_FREERTOS_NO_EXCEPTIONS"/>
+									<listOptionValue builtIn="false" value="CPP_FREERTOS_NO_CPP_STRINGS"/>
+									<listOptionValue builtIn="false" value="USE_RTOS_SYSTICK"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.include.paths.1257806003" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../freertos-addons/c++/Source/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../black-pill/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F&quot;"/>
+								</option>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp.942728793" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.s.403114363" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.s"/>
+							</tool>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.c.linker.582606699" name="MCU GCC Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.linker"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.310304930" name="MCU G++ Linker" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.linker"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.archiver.1056511387" name="MCU GCC Archiver" superClass="fr.ac6.managedbuild.tool.gnu.archiver"/>
+							<tool id="fr.ac6.managedbuild.tool.gnu.cross.assembler.lib.release.2051174670" name="MCU GCC Assembler" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.lib.release">
+								<option id="gnu.both.asm.option.include.paths.463970035" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../black-pill/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.284472429" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.assembler.input.752884890" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="Source/portable/MemMang/heap_5.c|Source/portable/MemMang/heap_3.c|Source/portable/MemMang/heap_2.c|Source/portable/MemMang/heap_1.c|Source/portable/GCC/ARM_CM7_MPU|Source/portable/GCC/ARM_CM7|Source/portable/GCC/ARM_CM4_MPU|Source/portable/GCC/ARM_CM33_NTZ|Source/portable/GCC/ARM_CM33|Source/portable/GCC/ARM_CM3_MPU|Source/portable/GCC/ARM_CM3|Source/portable/GCC/ARM_CM23_NTZ|Source/portable/GCC/ARM_CM23|Source/portable/GCC/ARM_CM0|Source/portable/Tasking|Source/portable/RVDS|Source/portable/Keil|Source/portable/IAR|Source/portable/Common|Source/CMSIS_RTOS_V2|Source/CMSIS_RTOS" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="freertos-addons-static.fr.ac6.managedbuild.target.gnu.cross.lib.979629420" name="Static Library" projectType="fr.ac6.managedbuild.target.gnu.cross.lib"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.lib.debug.1110576364;fr.ac6.managedbuild.config.gnu.cross.lib.debug.1110576364.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1226337899;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.39123346">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.lib.release.485990753;fr.ac6.managedbuild.config.gnu.cross.lib.release.485990753.;fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.191669392;fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp.942728793">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.lib.debug.1110576364;fr.ac6.managedbuild.config.gnu.cross.lib.debug.1110576364.;fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.1824347065;fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp.1987965787">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="fr.ac6.managedbuild.config.gnu.cross.lib.release.485990753;fr.ac6.managedbuild.config.gnu.cross.lib.release.485990753.;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.1898313461;fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.1490552752">
+			<autodiscovery enabled="false" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>
