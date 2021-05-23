@@ -5,7 +5,6 @@
 #include <string.h>
 
 #include "Board.h"
-#include "Uart.h"
 
 using namespace cpp_freertos;
 
@@ -23,7 +22,6 @@ void CApplication::Run()
 	for (;;)
 	{
 		CBoard::mUserLed.Toggle();
-//		uart.Send((uint8_t *) "Hello, World\r\n", 14);
 		Thread::Delay(Ticks::MsToTicks(1000));
 	}
 }

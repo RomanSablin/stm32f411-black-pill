@@ -39,8 +39,10 @@
 									<listOptionValue builtIn="false" value="USE_RTOS_SYSTICK"/>
 								</option>
 								<option id="gnu.c.compiler.option.include.paths.364179663" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../black-pill/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Drivers/CMSIS/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F&quot;"/>
 								</option>
 								<option id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.fdata.1422545993" name="Place the data in their own section (-fdata-sections)" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.fdata" useByScannerDiscovery="false" value="true" valueType="boolean"/>
@@ -60,9 +62,11 @@
 									<listOptionValue builtIn="false" value="USE_RTOS_SYSTICK"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.include.paths.2146558590" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../freertos-addons/c++/Source/include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../black-pill/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../freertos-addons/c++/Source/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Drivers/CMSIS/Include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F&quot;"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.dialect.std.143322258" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.c++11" valueType="enumerated"/>
@@ -75,8 +79,9 @@
 							<tool id="fr.ac6.managedbuild.tool.gnu.archiver.1319724616" name="MCU GCC Archiver" superClass="fr.ac6.managedbuild.tool.gnu.archiver"/>
 							<tool id="fr.ac6.managedbuild.tool.gnu.cross.assembler.1203633275" name="MCU GCC Assembler" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler">
 								<option id="gnu.both.asm.option.include.paths.1391740844" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../black-pill/config&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1195942877" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
@@ -86,7 +91,7 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry excluding="Source|c++" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry excluding="portable/GCC|portable/MemMang/heap_5.c|portable/MemMang/heap_3.c|portable/MemMang/heap_2.c|portable/MemMang/heap_1.c|portable/Tasking|portable/RVDS|portable/Keil|portable/IAR|portable/Common|CMSIS_RTOS_V2|CMSIS_RTOS" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Source"/>
+						<entry excluding="portable/GCC|portable/MemMang/heap_5.c|portable/MemMang/heap_3.c|portable/MemMang/heap_2.c|portable/MemMang/heap_1.c|portable/Tasking|portable/RVDS|portable/Keil|portable/IAR|portable/Common|CMSIS_RTOS_V2" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Source"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Source/portable/GCC/ARM_CM4F"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="c++"/>
 					</sourceEntries>
@@ -134,6 +139,8 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../black-pill/config&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Drivers/CMSIS/Include&quot;"/>
 								</option>
 								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.1490552752" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c"/>
 								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s.1863933210" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s"/>
@@ -154,6 +161,7 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../black-pill/config&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS&quot;"/>
 								</option>
 								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp.942728793" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.cpp"/>
 								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.s.403114363" superClass="fr.ac6.managedbuild.tool.gnu.cross.cpp.compiler.input.s"/>
@@ -166,6 +174,7 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../black-pill/config&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.284472429" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.assembler.input.752884890" superClass="fr.ac6.managedbuild.tool.gnu.cross.assembler.input"/>
@@ -173,7 +182,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="Source/portable/GCC|Source/portable/MemMang/heap_5.c|Source/portable/MemMang/heap_3.c|Source/portable/MemMang/heap_2.c|Source/portable/MemMang/heap_1.c|Source/portable/Tasking|Source/portable/RVDS|Source/portable/Keil|Source/portable/IAR|Source/portable/Common|Source/CMSIS_RTOS_V2|Source/CMSIS_RTOS" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="Source/portable/GCC|Source/portable/MemMang/heap_5.c|Source/portable/MemMang/heap_3.c|Source/portable/MemMang/heap_2.c|Source/portable/MemMang/heap_1.c|Source/portable/Tasking|Source/portable/RVDS|Source/portable/Keil|Source/portable/IAR|Source/portable/Common|Source/CMSIS_RTOS_V2" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Source/portable/GCC/ARM_CM4F"/>
 					</sourceEntries>
 				</configuration>
