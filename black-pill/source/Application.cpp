@@ -22,7 +22,8 @@ void CApplication::Run()
 
 	for (;;)
 	{
-		uart.Send((uint8_t *) "Hello, World\r\n", 14);
+		CBoard::mUserLed.Toggle();
+//		uart.Send((uint8_t *) "Hello, World\r\n", 14);
 		Thread::Delay(Ticks::MsToTicks(1000));
 	}
 }

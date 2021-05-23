@@ -12,11 +12,13 @@
 #pragma once
 
 #include <stdint.h>
+#include "GpioOutput.h"
 
 class CBoard
 {
 public:
 	static void Init();
+	static CGpioOutput mUserLed;
 private:
 	CBoard();
 };

@@ -41,6 +41,7 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Drivers/CMSIS/Device/ST/STM32F4xx/Include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Drivers/CMSIS/Core/Include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F&quot;"/>
 								</option>
 								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.371937281" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c"/>
 								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s.917377897" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s"/>
@@ -84,7 +85,7 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../stm32f4-hal-static/Debug&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../freertos-addons-static/Debug&quot;"/>
 								</option>
-								<option id="gnu.cpp.link.option.flags.890645406" name="Linker flags" superClass="gnu.cpp.link.option.flags" useByScannerDiscovery="false" value="-specs=nano.specs" valueType="string"/>
+								<option id="gnu.cpp.link.option.flags.890645406" name="Linker flags" superClass="gnu.cpp.link.option.flags" useByScannerDiscovery="false" value="" valueType="string"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.302694606" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -152,6 +153,7 @@
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Drivers/CMSIS/Device/ST/STM32F4xx/Include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:${ProjDirPath}/../STM32CubeF4/Drivers/CMSIS/Core/Include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../STM32CubeF4/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F&quot;"/>
 								</option>
 								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c.923771299" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.c"/>
 								<inputType id="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s.1037451830" superClass="fr.ac6.managedbuild.tool.gnu.cross.c.compiler.input.s"/>
