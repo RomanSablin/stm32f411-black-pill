@@ -12,6 +12,8 @@
 #include "Board.h"
 #include "stm32f4xx_hal.h"
 
+#include "thread.hpp"
+
 CGpioOutput CBoard::mUserLed(GPIOC, GPIO_PIN_13);
 
 
@@ -22,6 +24,11 @@ void SystemClock_Config(void);
 void Error_Handler()
 {
 	for(;;){}
+}
+
+void HAL_Delay(uint32_t Delay)
+{
+	vTaskDelay(Delay);
 }
 
 }

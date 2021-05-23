@@ -26,4 +26,11 @@
 		<nature>fr.ac6.mcu.ide.core.MCUProjectNature</nature>
 		<nature>fr.ac6.mcu.ide.core.MCUSingleCoreProjectNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>ssd1306</name>
+			<type>2</type>
+			<locationURI>PARENT-1-PROJECT_LOC/stm32-ssd1306/ssd1306</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>

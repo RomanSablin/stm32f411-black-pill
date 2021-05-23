@@ -6,6 +6,11 @@
 
 #include "Board.h"
 
+extern "C"
+{
+#include "ssd1306_tests.h"
+}
+
 using namespace cpp_freertos;
 
 CApplication::CApplication()
@@ -16,8 +21,7 @@ CApplication::CApplication()
 
 void CApplication::Run()
 {
-	CUart uart(USART1);
-	uart.Init();
+	ssd1306_TestAll();
 
 	for (;;)
 	{
